@@ -1,0 +1,14 @@
+<suite name = "group testing">
+<parameter name="browser" value ="Chrome"></parameter>
+<test name = "myTest">
+<groups>
+<run>
+<include name = "smoke"></include>
+</run>
+</groups>
+<classes> 
+<class name = "testcases.ManageNewsTest">
+</class>
+</classes>
+</test>
+</suite>

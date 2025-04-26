@@ -1,0 +1,17 @@
+<suite name = "myTestSuite">
+<parameter name="browser" value ="Chrome"></parameter>
+<listeners>
+<listener class-name="listeners.Listeners"></listener>
+</listeners>
+<test name = "myTest">
+<classes> 
+<class name = "testcases.Login_Test"> </class>
+<class name = "testcases.CategoryTest"></class>
+<class name = "testcases.SubCategoryTest"></class>
+<class name = "testcases.AdminUsersTest"></class>
+<class name = "testcases.ManageContactTest"></class>
+<class name = "testcases.ManageFooterTest"></class>
+<class name = "testcases.ManageNewsTest"></class>
+</classes>
+</test>
+</suite>

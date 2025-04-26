@@ -1,0 +1,25 @@
+<suite name="parallelTesting" parallel="tests" thread-count="2">
+	
+	
+	<test name="test1" thread-count="5">
+	<parameter name="browser" value="Chrome"></parameter>
+		<classes>
+			<class name="testcases.ManageContactTest">
+				<methods>
+					<include name="verifyUpdateContactInformation"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="test2" thread-count="5">
+	<parameter name="browser" value="Chrome"></parameter>
+		<classes>
+			<class name="testcases.ManageContactTest">
+				<methods>
+					<include name="verifyUpdateContactInformation"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

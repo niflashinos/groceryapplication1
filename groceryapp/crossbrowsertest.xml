@@ -1,0 +1,24 @@
+<suite name="crossbrowsertesting">
+		
+	<test name="chrometest">
+	<parameter name="browser" value="Chrome"></parameter>
+		<classes>
+			<class name="testcases.ManageFooterTest">
+				<methods>
+					<include name="verifyUpdateFooterText"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="edgetest">
+	<parameter name="browser" value="Edge"></parameter>
+		<classes>
+			<class name="testcases.ManageFooterTest">
+				<methods>
+					<include name="verifyUpdateFooterText"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

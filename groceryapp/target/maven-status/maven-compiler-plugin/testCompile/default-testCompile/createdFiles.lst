@@ -1,0 +1,11 @@
+testcases\CategoryTest.class
+testcases\AdminUsersTest.class
+testcases\ManageFooterTest.class
+listeners\Listeners.class
+testcases\Login_Test.class
+testcases\ManageContactTest.class
+testcases\SubCategoryTest.class
+testcases\BaseClass.class
+testcases\ManageNewsTest.class
+listeners\RetryListener.class
+retry\Retry.class
